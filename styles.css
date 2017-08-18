@@ -1,0 +1,91 @@
+html {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+  }
+  #pomodoro {
+    width: 60%;
+    height: 10%;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1980e6;
+    border: 3px solid #1980e6;
+    border-radius: 1vw;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  #breakLength {
+    width: 6.5rem;
+    height: 6.5rem;
+    border: 0.2rem solid #1980e6;
+    border-radius: 6.4rem;
+    font-weight: bold;
+    color: #1980e6;
+    text-align: center;
+    float: left;
+    margin-left: 25%;
+  }
+  #breakLength > div:nth-child(1) {
+    margin-top: 1.25rem;
+    cursor: pointer;
+  }
+  #breakMinus {
+    cursor: pointer;
+  }
+  #breakPlus {
+    cursor: pointer;
+  }
+  #sessionLength {
+    width: 6.5rem;
+    height: 6.5rem;
+    border: 0.2rem solid #1980e6;
+    border-radius: 6.9rem;
+    font-weight: bold;
+    color: #1980e6;
+    text-align: center;
+    float: right;
+    margin-right: 25%;
+  }
+  #sessionLength > div:nth-child(1) {
+    margin-top: 1.3rem;
+    cursor: pointer;
+  }
+  #sessionMinus {
+    cursor: pointer;
+  }
+  #sessionPlus {
+    cursor: pointer;
+  }
+  .clockSet {
+    font-size: 1.2rem;
+    display: inline;
+  }
+  #spacerDiv {
+    width: 2rem;
+    height: 3rem;
+  }
+  #clockDisplay {
+    width: 16rem;
+    height: 16rem;
+    border: 0.2rem solid #1980e6;
+    border-radius: 16.4rem;
+    font-weight: bold;
+    color: #1980e6;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+  }
+  #clockTitle {
+    margin-top: 3.3rem;
+    margin-bottom: 0.7rem;
+    font-size: 2.4rem;
+  }
+  #clockMin {
+    font-size: 3.8rem;
+    display: inline;
+  }
+  #clockSec {
+    font-size: 1.9rem;
+    display: inline;
+  }

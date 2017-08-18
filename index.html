@@ -1,0 +1,30 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+</script>
+<div id="pomodoro">POMODORO CLOCK</div>
+<div id="breakLength">
+  <div>BREAK</div>
+  <div id="breakMinus" class="clockSet">&ndash;</div>
+  <div id="breakTime" class="clockSet">5</div>
+  <div id="breakPlus" class="clockSet">+</div>
+  <div>LENGTH</div>
+</div>
+<div id="sessionLength">
+  <div>SESSION</div>
+  <div id="sessionMinus" class="clockSet">&ndash;</div>
+  <div id="sessionTime" class="clockSet">25</div>
+  <div id="sessionPlus" class="clockSet">+</div>
+  <div>LENGTH</div>
+</div>
+<div id="spacerDiv"></div>
+<div id="clockDisplay">
+  <div id="clockTitle">SESSION</div>
+  <div id="clockMin">25</div>
+  <div id="clockSec">00</div>
+  <div id="clockControl">PRESS TO START</div>
+</div>
